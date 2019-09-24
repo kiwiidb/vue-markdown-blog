@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1 class="headline center">v-m-blog</h1>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <h1 class="headline center">Blog</h1>
+    <img alt="Vue logo" src="../assets/profilepic.png">
     <div class="sections">
       <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
         <h2 class="center">{{section}}</h2>
