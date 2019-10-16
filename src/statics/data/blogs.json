@@ -1,10 +1,46 @@
 {
   "2019": [
     {
-      "id": "Brussel-Madrid",
+      "id": "Brussel - Madrid",
       "date": "September 20, 2019",
-      "title": "Part I: Brussel - Madrid",
+      "title": "USA Journey Part I: Brussel - Madrid",
       "description": "One day in Madrid on the way to New York."
+    },
+    {
+      "id": "New_York",
+      "date": "September 22, 2019",
+      "title": "USA Journey Part II: New York",
+      "description": "Big 🍏"
+    },
+    {
+      "id": "Boston",
+      "date": "September 28, 2019",
+      "title": "USA Journey Part III: Boston",
+      "description": "👨‍🎓 👩‍🎓 ☘️"
+    },
+    {
+      "id": "Chicago",
+      "date": "September 30, 2019",
+      "title": "USA Journey Part IV: Chicago",
+      "description": "Spent 1 day in Chicago on the way to SF."
+    },
+    {
+      "id": "San_Fran",
+      "date": "October 1, 2019",
+      "title": "USA Journey Part V: San Fransisco",
+      "description": "🌉 🌯"
+    },
+    {
+      "id": "Monterey",
+      "date": "October 5, 2019",
+      "title": "USA Journey Part VI: Monterey",
+      "description": "🏖️"
+    },
+    {
+      "id": "LA",
+      "date": "October 9, 2019",
+      "title": "USA Journey Part VII: Los Angeles",
+      "description": "🎥"
     }
   ]
 }
