@@ -21,7 +21,6 @@
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190922_124849.jpg)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190922_140155.jpg)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190922_152020.jpg)
-![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190923_151922.gif)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190923_154424.jpg)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190923_155006.gif)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/New_York/20190923_165532.jpg)

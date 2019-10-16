@@ -1,4 +1,3 @@
-![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/Monterey/20190928_174156.gif)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/Monterey/20191005_155038.jpg)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/Monterey/20191005_171356.jpg)
 ![](https://homepage-kwintendebacker.s3.eu-central-1.amazonaws.com/usa/Monterey/20191006_094133.jpg)
