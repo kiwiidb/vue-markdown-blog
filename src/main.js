@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// import the library
+import VueNavigationBar from "vue-navigation-bar";
+Vue.component("vue-navigation-bar", VueNavigationBar);
 new Vue({
   router,
   render: h => h(App)

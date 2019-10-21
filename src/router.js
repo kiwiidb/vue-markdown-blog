@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import BlogHome from './views/BlogHome.vue'
 import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -13,7 +14,7 @@ const blogRoutes = Object.keys(BlogEntries).map(section => {
     component: () => import(`./markdowns/${section}/${child.id}.md`)
   }))
   return {
-    path: `/${section}`,
+    path: `/blog/${section}`,
     name: section,
     component: () => import('./views/Blog.vue'),
     children
@@ -28,6 +29,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/blog',
+      name: 'BlogHome',
+      component: BlogHome
     },
     ...blogRoutes
   ]

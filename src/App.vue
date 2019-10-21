@@ -1,10 +1,49 @@
 <template>
   <div id="app">
     <div>
+      <vue-navigation-bar :options="navbarOptions" />
       <router-view/>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      navbarOptions: {
+        elementId: "main-navbar",
+        isUsingVueRouter: true,
+        mobileBreakpoint: 992,
+        ariaLabelMainNav: "Main Navigation",
+        tooltipAnimationType: "shift-away",
+        menuOptionsLeft: [
+          {
+            type: 'link',
+            text: 'Home',
+            path: './'
+          },
+          {
+            type: 'link',
+            text: 'Projects',
+            path: './projects'
+          },
+          {
+            type: 'link',
+            text: 'CV',
+            path: './cv'
+          },
+          {
+            type: 'link',
+            text: 'Blog',
+            path: './blog'
+          }
+        ]
+      }
+    }
+  }
+}
+</script>
 <style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
