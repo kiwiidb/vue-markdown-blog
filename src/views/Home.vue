@@ -5,8 +5,8 @@
       I'm Kwinten. I am a software developper based in Ghent, Belgium.
     </p>
     <p>
-      Thanks for stopping by. Please take a look at some of my <a>projects</a>,
-      my resume, or my blog.
+      Please take a look at some of my <a href="./projects">Projects</a>,
+      my <a href="/cv">CV</a>, or my <a href="/blog">Blog</a>.
     </p>
   </div>
 </template>
