@@ -44,7 +44,8 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style lang="scss">
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -54,4 +55,19 @@ export default {
   margin: 0 auto;
 }
 
+//
+// vue-navigation-bar customization below
+//
+.main-navbar-section {
+  background: #fff;
+}
+.vnb {
+  font-family: "Montserrat", sans-serif;
+  .button-red {
+    background: #ff3b30;
+    &:hover {
+      background: darken(#ff3b30, 10%);
+    }
+  }
+}
 </style>
