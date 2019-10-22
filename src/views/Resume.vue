@@ -1,3 +1,3 @@
 <template>
-    <iframe src="https://kwintendebacker.be/cv.pdf" width="75%" height="1500px"></iframe>
+    <iframe style="display:block, text-align:center; margin: 0 auto" src="https://kwintendebacker.be/cv.pdf" width="65%" height="1100px"></iframe>
 </template>
