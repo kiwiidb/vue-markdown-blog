@@ -38,18 +38,6 @@ export default {
             text: 'Blog',
             path: '/blog'
           }
-        ],
-        menuOptionsRight: [
-          {
-            type: 'link',
-            text: 'Github',
-            path: 'https://github.com/kiwiidb'
-          },
-          {
-            type: 'link',
-            text: 'Linkedin',
-            path: 'https://www.linkedin.com/in/kwinten-de-backer-5087b5195/'
-          }
         ]
       }
     }

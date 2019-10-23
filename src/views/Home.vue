@@ -8,6 +8,11 @@
       Please take a look at some of my <a href="./projects">projects</a>,
       my <a href="/cv">CV</a>, or my <a href="/blog">Blog</a>.
     </p>
+  <div class="socials-list">
+    <a class="socials-item" href="https://github.com/kiwiidb"><img src="../assets/github.svg" /></a>
+    <a class="socials-item" href="https://www.linkedin.com/in/kwinten-de-backer-5087b5195/"><img src="../assets/linkedin.svg" /></a>
+    <a class="socials-item" href="mailto:kwinten.debacker@hotmail.com"><img src="../assets/microsoftoutlook.svg"/></a>
+  </div>
   </div>
 </template>
 
@@ -18,6 +23,21 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.socials-list {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.socials-item {
+  flex: 1 0 33%; /* explanation below */
+  width: 50px;
+}
 .center {
   text-align: center;
 }
