@@ -21,24 +21,24 @@ export default {
           {
             type: 'link',
             text: 'Home',
-            path: './'
+            path: '/'
           },
           {
             type: 'link',
             text: 'Projects',
-            path: './projects'
+            path: '/projects'
           },
           {
             type: 'link',
             text: 'CV',
-            path: './cv'
+            path: '/cv'
           },
           {
             type: 'link',
             text: 'Blog',
-            path: './blog'
+            path: '/blog'
           }
-        ]
+        ],
       }
     }
   }
