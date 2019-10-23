@@ -39,6 +39,13 @@ export default {
             path: '/blog'
           }
         ],
+        menuOptionsRight: [
+          {
+            type: 'link',
+            text: 'Github',
+            path: 'https://github.com/kiwiidb'
+          }
+        ]
       }
     }
   }
