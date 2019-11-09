@@ -11,6 +11,7 @@
   <div class="socials-list">
     <a class="socials-item" href="https://github.com/kiwiidb"><img src="../assets/github.svg" /></a>
     <a class="socials-item" href="https://www.linkedin.com/in/kwinten-de-backer-5087b5195/"><img src="../assets/linkedin.svg" /></a>
+    <a class="socials-item" href="https://twitter.com/kiwiidb"><img src="../assets/twitter.jpg"/></a>
     <a class="socials-item" href="mailto:kwinten.debacker@hotmail.com"><img src="../assets/microsoftoutlook.svg"/></a>
   </div>
   </div>
@@ -31,12 +32,13 @@ export default {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  width: 400px;
 }
 
 .socials-item {
-  flex: 1 0 33%; /* explanation below */
-  width: 50px;
+  margin: 30px;
+  flex: 1 0 25%; /* explanation below */
+  width: 100px;
 }
 .center {
   text-align: center;
