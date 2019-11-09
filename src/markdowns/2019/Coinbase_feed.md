@@ -3,11 +3,12 @@
 This is the first one (hopefully) in a series of blog posts where I will be exploring Bitcoin Core via 
 command line scripts, as an effort to deepen my understanding of it.
 
-So I'm using a VPS for hosting my Bitcoin Core full node (time4vps.com). I had some issues with it lately
+So I'm using a VPS for hosting my Bitcoin Core full node.  I had some issues with it lately
 and partly because of this, partly to do some experimenting I decided to resync the chain. Now, when you have set 
 up everything and started our beloved piece of software with `bitcoind`, what is there to do? Depending on your 
-system it may take hours/days/weeks before it has synced the chain. One of the more intriguing things in Bitcoin 
-(in my opinion) are the coinbase messages from the miners. A miner has made an enormous effort to produce a block and this
+system it may take hours/days/weeks before it has synced the chain.
+
+One of the more intriguing things in Bitcoin (in my opinion) are the coinbase messages from the miners. A miner has made an enormous effort to produce a block and this
 is there one chance to share something with the world, forever to be engraved in the chain. First we will look at some coinbase messages using the command
 line, and then we will write a script in order to get a feed from them as our node is syncing the chain. Finally we will see a script you can use to see the 
 coinbase messages from the last X blocks (useful for when your node has actually synced and you want to investigate eg. miner decentralization).
