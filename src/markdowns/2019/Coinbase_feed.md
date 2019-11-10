@@ -15,6 +15,7 @@ coinbase messages from the last X blocks (useful for when your node has actually
 
 ## Prerequisites
 - Bitcoin Core installation running and preferably in the process of syncing the chain
+- `txindex=1` option enabled in `.bitcoin/bitcoin.conf`
 - [jq](https://github.com/stedolan/jq)
 - the program `xxd`, to decode hex code to something readable
 
